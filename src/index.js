@@ -8,4 +8,6 @@ app.get('/', (request, response) => {
   return response.json({ Guilhermo: 'Lindo'})
 })
 
-app.listen(3333);
+app.listen(3333, () => {
+  console.log('🚀 Server started!');
+});
